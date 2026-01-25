@@ -42,4 +42,29 @@ Este repositorio contiene el temario y los materiales didácticos diseñados par
 ---
 
 ### Bloque 3: Ecuaciones y Desigualdades
-*El arte de encontrar el valor desconocido manteniendo
+*El arte de encontrar el valor desconocido manteniendo el equilibrio.*
+
+* **3.1 Ecuaciones Lineales (Primer Grado):**
+    * La metáfora de la balanza: Mantener la igualdad en ambos lados.
+    * Resolución de ecuaciones de una incógnita y despejes fundamentales.
+* **3.2 Sistemas de Ecuaciones 2x2:**
+    * Métodos de resolución: Sustitución, Igualación y Reducción (Suma y Resta).
+    * Interpretación gráfica: El punto de intersección.
+* **3.3 Ecuaciones Cuadráticas (Segundo Grado):**
+    * Resolución por factorización vs. **Fórmula General**.
+    * Uso del discriminante ($b^2 - 4ac$) para determinar el tipo de soluciones.
+
+
+
+---
+
+### Bloque 4: Introducción a las Relaciones Visuales
+*Conectando el álgebra con su representación en el plano.*
+
+* **4.1 Concepto de Función:**
+    * Relación de dependencia: Dominio y Rango (introducción).
+* **4.2 La Línea Recta:**
+    * Análisis de la pendiente ($m$) y la ordenada al origen ($b$).
+    * Ecuación punto-pendiente.
+* **4.3 Introducción a la Parábola:**
+    * Identificación visual de funciones de segundo grado y su concavidad.
