@@ -132,3 +132,26 @@ $$ det(x) =
   d_{i_3} & b_3 & c_3
 \end{array}
 \right]$$
+
+Para el caso de $y$ sería:
+
+$$ det(y) =
+\left[
+\begin{array}{ccc|c}
+  a_1 & d_{i_1} & c_1 \\
+  a_2 & d_{i_2} & c_2 \\
+  a_3 & d_{i_3} & c_3
+\end{array}
+\right]$$
+
+
+Y para el caso de $z$ queda como:
+
+$$ det(z) =
+\left[
+\begin{array}{ccc|c}
+  a_1 & b_1 & d_{i_1} \\
+  a_2 & b_2 & d_{i_2} \\
+  a_3 & b_3 & d_{i_3}
+\end{array}
+\right]$$
