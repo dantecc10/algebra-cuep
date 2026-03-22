@@ -68,3 +68,43 @@ Este repositorio contiene el temario y los materiales didácticos diseñados par
     * Ecuación punto-pendiente.
 * **4.3 Introducción a la Parábola:**
     * Identificación visual de funciones de segundo grado y su concavidad.
+
+### Sistema de Ecuaciones 3x3 (Cramer / Determinantes)
+
+Un sistema de ecuaciones 3x3 es una relación lineal constituida por 3 ecuaciones con 3 variables.
+
+Las ecuaciones tienen la siguiente forma:
+
+$Ax + By + Cz = D$, donde $A$, $B$, $C$ y $D$ son valores escalares que acompañan a las variables como coeficientes (salvo D, que es una constante).
+
+Para resolver un sistema de ecuaciones 3x3 por el método de determinantes debemos ver el sistema como una matriz, para poder pensar en sus determinantes:
+
+Si llamamos $a$ al coeficiente de $x$ en cada ecuación, tendremos que:
+
+- Para la ecuación 1 ($E_1$) el coeficiente de $x$ es $a_1$.
+
+- Para la ecuación 2 ($E_2$) el coeficiente de $x$ es $a_2$.
+
+- Para la ecuación 3 ($E_3$) el coeficiente de $x$ es $a_3$.
+
+Lo mismo para $y$ y $z$:
+
+- Para la ecuación 1 ($E_1$) el coeficiente de $y$ es $b_1$.
+
+- Para la ecuación 2 ($E_2$) el coeficiente de $y$ es $b_2$.
+
+- Para la ecuación 3 ($E_3$) el coeficiente de $y$ es $b_3$.
+
+- Para la ecuación 1 ($E_1$) el coeficiente de $z$ es $c_1$.
+
+- Para la ecuación 2 ($E_2$) el coeficiente de $z$ es $c_2$.
+
+- Para la ecuación 3 ($E_3$) el coeficiente de $z$ es $c_3$.
+
+Mientras que los resultados de las sumas [o restas] de los coeficientes, es $d_i$ (d independiente). Aquí tomaremos directamente el valor:
+
+- Para la ecuación 1 ($E_1$) el valor de $d_i$ es $d_{i}_{1}$.
+
+- Para la ecuación 2 ($E_2$) el valor de $d_i$ es $d_{i}_{1}$.
+
+- Para la ecuación 3 ($E_3$) el valor de $d_i$ es $d_{i}_{3}$.
