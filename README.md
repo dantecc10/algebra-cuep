@@ -120,4 +120,15 @@ $$ D =
 \end{array}
 \right]$$
 
-Para obtener el valor de $x$, $y$ y $z$, debemos obtener los determinantes correspondientes
+Para obtener el valor de $x$, $y$ y $z$, debemos obtener los determinantes correspondientes a una matriz 3 x 3, pero sustituyendo la columna del coeficiente de la variable, por la de $d_i$.
+
+Así, el determinante para el caso de $x$ sería:
+
+$$ det(x) =
+\left[
+\begin{array}{ccc|c}
+  d_{i_1} & b_1 & c_1 \\
+  d_{i_2} & b_2 & c_2 \\
+  d_{i_3} & b_3 & c_3
+\end{array}
+\right]$$
