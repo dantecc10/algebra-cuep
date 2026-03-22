@@ -103,8 +103,8 @@ Lo mismo para $y$ y $z$:
 
 Mientras que los resultados de las sumas [o restas] de los coeficientes, es $d_i$ (d independiente). Aquí tomaremos directamente el valor:
 
-- Para la ecuación 1 ($E_1$) el valor de $d_i$ es $d_{i}_{1}$.
+- Para la ecuación 1 ($E_1$) el valor de $d_i$ es $d_{i_1}$.
 
-- Para la ecuación 2 ($E_2$) el valor de $d_i$ es $d_{i}_{1}$.
+- Para la ecuación 2 ($E_2$) el valor de $d_i$ es $d_{i_1}$.
 
-- Para la ecuación 3 ($E_3$) el valor de $d_i$ es $d_{i}_{3}$.
+- Para la ecuación 3 ($E_3$) el valor de $d_i$ es $d_{i_3}$.
