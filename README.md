@@ -119,3 +119,12 @@ $$ D =
   a_3 & b_3 & c_3 & d_{i_3}
 \end{array}
 \right]$$
+
+
+$$
+\left[\begin{array}{ccc|c}
+1 & 2 & 3 & 10 \\
+4 & 5 & 6 & 20 \\
+7 & 8 & 9 & 30
+\end{array}\right]
+$$
