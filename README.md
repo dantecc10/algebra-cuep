@@ -155,3 +155,17 @@ $$ det(z) =
   a_3 & b_3 & d_{i_3}
 \end{array}
 \right]$$
+
+Ahora, podemos resolver los determinantes considetando que, para la forma general de una matriz de 3 columnas por 3 columnas ($M_33$):
+
+$$
+M_33 = 
+\left[
+\begin{array}{ccc|c}
+  a_1 & b_1 & c_1 \\
+  a_2 & b_2 & c_2 \\
+  a_3 & b_3 & c_3
+\end{array}
+\right]$$
+
+$det(M_33) = [(a_1 \cdot b_2 \cdot c_3) + (b_1 \cdot c_2 \cdot c_3) + (c_1 \cdot a_2 \cdot b_3)] - [(c_1 \cdot b_2 \cdot a_3) + (a_1 \cdot c_2 \cdot b_3) + (b_1 \cdot a_2 \cdot c_3)]$
