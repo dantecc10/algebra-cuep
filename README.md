@@ -168,7 +168,7 @@ M_{33} =
 \end{array}
 \right]$$
 
-$det(M_33) = [(a_1 \cdot b_2 \cdot c_3) + (b_1 \cdot c_2 \cdot a_3) + (c_1 \cdot a_2 \cdot b_3)] - [(c_1 \cdot b_2 \cdot a_3) + (a_1 \cdot c_2 \cdot b_3) + (b_1 \cdot a_2 \cdot c_3)]$
+$det(M_{33}) = [(a_1 \cdot b_2 \cdot c_3) + (b_1 \cdot c_2 \cdot a_3) + (c_1 \cdot a_2 \cdot b_3)] - [(c_1 \cdot b_2 \cdot a_3) + (a_1 \cdot c_2 \cdot b_3) + (b_1 \cdot a_2 \cdot c_3)]$
 
 Por lo tanto, usando esa forma, resolvemos el determinante de $x$:
 
@@ -185,3 +185,28 @@ $$ D_x =
 
 $det(D_x) = [(d_{i_1} \cdot b_2 \cdot c_3) + (b_1 \cdot c_2 \cdot d_{i_3}) + (c_1 \cdot d_{i_2} \cdot b_3)] - [(c_1 \cdot b_2 \cdot d_{i_3}) + (d_{i_1} \cdot c_2 \cdot b_3) + (b_1 \cdot d_{i_2} \cdot c_3)]$
 
+Lo dejaremos en esta forma para después operar con valores no arbitrarios. Mientras, vamos por el determinante de $y$ y $z$:
+
+Sea $D_y$:
+
+$$ D_y =
+\left[
+\begin{array}{ccc|c}
+  a_1 & d_{i_1} & c_1 \\
+  a_2 & d_{i_2} & c_2 \\
+  a_3 & d_{i_3} & c_3
+\end{array}
+\right]$$
+
+$det(D_y) = [(a_1 \cdot b_2 \cdot c_3) + (b_1 \cdot c_2 \cdot a_3) + (c_1 \cdot a_2 \cdot b_3)] - [(c_1 \cdot b_2 \cdot a_3) + (a_1 \cdot c_2 \cdot b_3) + (b_1 \cdot a_2 \cdot c_3)]$
+
+Sea $D_z$:
+
+$$ D_z =
+\left[
+\begin{array}{ccc|c}
+  a_1 & b_1 & d_{i_1} \\
+  a_2 & b_2 & d_{i_2} \\
+  a_3 & b_3 & d_{i_3}
+\end{array}
+\right]$$
