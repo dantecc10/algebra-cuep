@@ -108,3 +108,11 @@ Mientras que los resultados de las sumas [o restas] de los coeficientes, es $d_i
 - Para la ecuación 2 ($E_2$) el valor de $d_i$ es $d_{i_1}$.
 
 - Para la ecuación 3 ($E_3$) el valor de $d_i$ es $d_{i_3}$.
+
+Entonces, podemos ver el sistema como:
+
+$$ D = \begin{array}{ccc|c}
+  a_1 & b_1 & c_1 & d_{i_1} \\
+  a_2 & b_2 & c_2 & d_{i_2} \\
+  a_3 & b_3 & c_3 & d_{i_3} \\
+\end$$
