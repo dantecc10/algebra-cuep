@@ -114,17 +114,10 @@ Entonces, podemos ver el sistema como:
 $$ D =
 \left[
 \begin{array}{ccc|c}
-  a_1 & b_1 & c_1 & d_{i_1} \\
-  a_2 & b_2 & c_2 & d_{i_2} \\
-  a_3 & b_3 & c_3 & d_{i_3}
+  a_1 & b_1 & c_1 & | & d_{i_1} \\
+  a_2 & b_2 & c_2 & | & d_{i_2} \\
+  a_3 & b_3 & c_3 & | & d_{i_3}
 \end{array}
 \right]$$
 
-
-$$
-\left[\begin{array}{ccc|c}
-1 & 2 & 3 & 10 \\
-4 & 5 & 6 & 20 \\
-7 & 8 & 9 & 30
-\end{array}\right]
-$$
+Para obtener el valor de $x$, $y$ y $z$, debemos obtener los determinantes correspondientes
