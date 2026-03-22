@@ -111,8 +111,11 @@ Mientras que los resultados de las sumas [o restas] de los coeficientes, es $d_i
 
 Entonces, podemos ver el sistema como:
 
-$$ D = \begin{array}{ccc|c}
+$$ D =
+\left[
+\begin{array}{ccc|c}
   a_1 & b_1 & c_1 & d_{i_1} \\
   a_2 & b_2 & c_2 & d_{i_2} \\
   a_3 & b_3 & c_3 & d_{i_3} \\
-\end{array}$$
+\end{array}
+\right]$$
